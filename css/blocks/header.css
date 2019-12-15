@@ -2,17 +2,15 @@
   position: absolute;
   width: 100%;
   padding-top: 10px;
-  z-index: 1;
-  //top: 84px;
-}
+  z-index: 1; }
 
 .header__container {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .header__wrapper {
-flex: 1;
-padding-left: 65px;
-}
+  flex: 1;
+  padding-left: 65px; }
+
+/*# sourceMappingURL=header.css.map */

@@ -4,6 +4,9 @@ $yellow: #f9b43b;
 $black: #2f3234;
 $red: #e35028;
 $white: #fff;
+$orange-dark: #f08c33;
+
+//@import "widgets/main.js";
 
 /*$z-fixed-menu: 100;*/
 
@@ -11,16 +14,21 @@ $white: #fff;
 @import "_misc/normalize.scss";
 
 // setups
-/*@import "_misc/mixins";*/
-@import "_misc/fonts";
-@import "_misc/layout";
+@import "_misc/fonts.scss";
+@import "_misc/layout.scss";
 
 // blocks
-@import "blocks/header";
-@import "blocks/nav";
-@import "blocks/btn";
-@import "blocks/promo";
-@import "blocks/best";
-@import "blocks/reviews";
-@import "blocks/fixed-menu";
-
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/btn.scss";
+@import "blocks/promo.scss";
+@import "blocks/best.scss";
+@import "blocks/reviews.scss";
+@import "blocks/fixed-menu.scss";
+@import "blocks/black.scss";
+@import "blocks/team.scss";
+@import "blocks/menu.scss";
+@import "blocks/work.scss";
+@import "blocks/delivery.scss";
+@import "blocks/map.scss";
+@import "blocks/footer.scss"

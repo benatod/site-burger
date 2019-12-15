@@ -1,0 +1,117 @@
+.black {
+  background-image: url(/img/bg/Rectangle_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.black__container {
+  height: 650px;
+  margin: 0 auto;
+ // padding-top: 57px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.black__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.black__img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-direction: column;
+  height: 650px;
+  width: 485px;
+}
+
+.black__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 118px;
+  padding-bottom: 143px;
+}
+
+.black__rew {
+  font-family: Ubuntu-light;
+  color: $white;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: start;
+}
+.black__left {
+  transform: rotate(90deg);
+}
+
+.black__right {
+  transform: rotate(-90deg);
+}
+
+.black__slider {
+  display: flex;
+  overflow: hidden;
+  //will-change: right;
+  width: 946px;
+  height: 650px;
+}
+.black__items {
+  display: flex;
+  position: relative;
+}
+.black__block {
+  display: flex;
+  width: 946px;
+  height: 650px;
+}
+
+.black__title {
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.black__buy {
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.black__price {
+  font-family: Gagalin-Regular;
+  color: $red;
+  font-size: 74px;
+  padding-right: 10px;
+}
+
+.black__name {
+  font-family: Gagalin-Regular;
+  font-size: 30px;
+  color: $red;
+  padding-right: 10px;
+  //font-size: 20px;
+  //padding-top: 50px;
+}
+
+.black__burg-menu {
+  background-color: $orange-dark;
+  width: 90px;
+  border-radius: 5px;
+  height: 90px;
+ // padding-left: 20px;
+  padding-top: 15px;
+  font-family: Gagalin-Regular;
+  font-size: 14px;
+  color: $white;
+  text-align: center;
+}
+
+.burg-menu__img {
+  width: 45px;
+  height: 45px;
+}

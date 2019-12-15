@@ -1,0 +1,43 @@
+.menu {
+  background-image: url(/img/bg/menu/photo-deaf2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 1100px;
+  margin: 0 auto; }
+
+.menu__container {
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.menu__title {
+  flex: 1;
+  margin-left: 103px;
+  margin-top: 150px; }
+
+.menu__block-1, .menu__block-2, .menu__block-3 {
+  height: 650px;
+  width: 70px; }
+
+.menu__block-1 {
+  background-image: url(/img/bg/menu/menu-meat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.menu__block-2 {
+  background-image: url(/img/bg/menu/menu-vegan.png);
+  background-repeat: no-repeat; }
+
+.menu__block-3 {
+  background-image: url(/img/bg/menu/menu-diet.png);
+  background-repeat: no-repeat; }
+
+.block-title {
+  transform: rotate(-90deg);
+  margin-top: 576px;
+  font-size: 36px; }
+
+/*# sourceMappingURL=menu.css.map */

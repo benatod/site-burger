@@ -1,0 +1,26 @@
+.black {
+  background-image: url(/img/bg/Rectangle_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin: 0 auto; }
+
+.black__container {
+  height: 650px; }
+
+.black__content {
+  display: flex; }
+
+.black__img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-direction: column;
+  height: 650px; }
+
+.black__title {
+  color: #ffffff; }
+
+/*# sourceMappingURL=black.css.map */

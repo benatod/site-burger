@@ -1,0 +1,48 @@
+.team {
+  background-image: url(/img/bg/SBS_1255-X2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+ .team__container {
+  height: 650px;
+}
+
+.team__accordeon {
+  background-image: url(/img/bg/Rectangle2.png);
+  width: 542px;
+  height: 650px;
+  position: absolute;
+  right: 0;
+  padding-left: 85px;
+  padding-top: 90px;
+}
+
+/*.team__list {  
+
+  color: $white;
+}*/
+
+.team__trigger {
+  color: $white;
+}
+
+.team__item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  color: $white;
+  width: 360px;
+}
+
+.team__item-block {
+  display: flex;
+}
+
+.team__text {
+     text-align: left;
+  }

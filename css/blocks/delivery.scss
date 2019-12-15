@@ -1,0 +1,73 @@
+.delivery {
+  background-image: url(/img/bg/bg-texture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.delivery__container {
+  height: 650px; 
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  padding-top: 95px;
+  padding-bottom: 102px;
+  
+  //text-align: center;
+}
+
+/*.delivery__title {
+  margin-bottom: 45px;
+}
+
+/*.delivery-form__title {
+  color: $white;
+}*/
+
+.delivery-form {
+  display: flex;
+  width: 965px;
+  justify-content: space-around;
+
+  &__row {
+    font-family: Ubuntu-light;
+  }
+}
+
+.delivery__data {
+  //flex: 1;
+width: 460px;
+//height: 271px;
+}
+
+.delivery-form__row {
+  display: flex;
+  margin-bottom: 19px;
+
+}
+
+.delivery-form__block {
+  flex: 1;
+  margin-left: 20px;
+  color:  $white;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.delivery-form__input {
+  font-size: 14px;
+  height: 37px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 108px;
+  width: 100%;
+}

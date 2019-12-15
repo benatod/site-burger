@@ -9,8 +9,8 @@
 }
 
 .reviews__item {
-  flex-basis: 25%;
-  height: 50%;
+ // flex-basis: 25%;
+  //height: 50%;
   position: relative;
 
 }
@@ -24,13 +24,18 @@
 
 
 .reviews__hover {
+  display: none;
   color: $white;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba($black, 0.3);
+  background-color: rgba($black, 0.7);
   padding: 50px 20px;
   transition: opacity .4s;
+}
+
+.reviews__item:hover .reviews__hover {
+  display: block;
 }
